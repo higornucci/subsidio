@@ -1,0 +1,10 @@
+*.classpath
+resource/.mvn/
+ui/.mvn/
+*.project
+resource/.settings/
+ui/.settings/
+resource/mvnw
+ui/mvnw
+*.cmd
+sh.exe.stackdump
