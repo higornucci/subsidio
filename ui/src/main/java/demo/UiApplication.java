@@ -2,9 +2,6 @@ package demo;
 
 import java.io.IOException;
 import java.security.Principal;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
 
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;
@@ -32,14 +29,6 @@ import org.springframework.web.util.WebUtils;
 @SpringBootApplication
 @RestController
 public class UiApplication {
-
-	@RequestMapping("/resource")
-	public Map<String, Object> home() {
-		Map<String, Object> model = new HashMap<String, Object>();
-		model.put("id", UUID.randomUUID().toString());
-		model.put("content", "Hello World");
-		return model;
-	}
 
 	@RequestMapping("/user")
 	public Principal user(Principal user) {
