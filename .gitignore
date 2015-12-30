@@ -12,3 +12,4 @@ resource/target
 ui/target
 *.cmd
 sh.exe.stackdump
+.settings/
