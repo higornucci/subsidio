@@ -6,5 +6,9 @@ resource/.settings/
 ui/.settings/
 resource/mvnw
 ui/mvnw
+resource/bin
+ui/bin
+resource/target
+ui/target
 *.cmd
 sh.exe.stackdump
